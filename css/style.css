@@ -123,6 +123,7 @@ header {
 }
 
 .col a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     margin: 20px ;
@@ -134,13 +135,40 @@ header {
     margin-top: 20px;
 }
 
-#title-col{
+#title-col {
     text-align: center;
     padding: 10px;
 }
 
-.title{
+.title {
     font-size: 3rem;
     color: #3982F5;
     text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .colums{
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .col{
+        width: 25%;
+        padding: 10px;
+
+    }
+
+    #wid{
+        width: 50%;
+
+    }        
+
+    .height{
+        height: 670px ;
+    }
+
 }
