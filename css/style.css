@@ -147,7 +147,7 @@ header {
 }
 
 .cards a {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: none;
     text-align: center;
